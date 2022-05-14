@@ -1,0 +1,28 @@
+version: '3'
+
+volumes:
+  ipython_history: {}
+
+services:
+  django:
+    tty: true
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+    working_dir: /opt/app/eterlast
+    image: eterlast_web
+    container_name: eterlast
+    # depends_on:
+    #   - sqlite3
+    volumes:
+      - ../.:/app
+      - ~/.zsh_history:/root/.zsh_history
+      - ipython_history:/root/.ipython/profile_default
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - DISPLAY=:0
+    ports:
+      - "8000:8000"
+    command: "python manage.py runserver 0.0.0.0:8000"
