@@ -57,7 +57,7 @@ class Collection(BaseModel):
 class NFT(BaseModel):
     asset_id = models.UUIDField(unique=True, default=uuid_lib.uuid4, editable=False)
     name = models.CharField(max_length=150, null=False)
-    picture = models.FileField(upload_to="picutures", max_length=275)  # file Path
+    picture = models.FileField(upload_to="pictures", max_length=275)  # file Path
     external_link = models.URLField(max_length=200, null=False)
     description = models.CharField(max_length=150, null=False)
     collection = models.ForeignKey(Collection, null=True, related_name="collection_nfts", on_delete=models.CASCADE)
