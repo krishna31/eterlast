@@ -1,0 +1,204 @@
+[
+    {
+        "model": "nft.collection",
+        "pk": 1,
+        "fields": {
+            "uuid": "aeda7243-c024-46d2-a47f-38c7fa6278e1",
+            "created": "2022-05-14T10:05:42.144Z",
+            "updated": "2022-05-14T10:05:42.144Z",
+            "creator": null,
+            "modified_by": null,
+            "name": "Krishna",
+            "description": "Collection",
+            "creator_network": 1
+        }
+    },
+    {
+        "model": "nft.collection",
+        "pk": 2,
+        "fields": {
+            "uuid": "7d385c6e-caa6-4443-917d-aaa37d1a6361",
+            "created": "2022-05-14T11:21:15.261Z",
+            "updated": "2022-05-14T11:21:15.261Z",
+            "creator": null,
+            "modified_by": null,
+            "name": "collection name 1",
+            "description": "Collection 2",
+            "creator_network": null
+        }
+    },
+    {
+        "model": "nft.collection",
+        "pk": 3,
+        "fields": {
+            "uuid": "3f6a97ac-aab5-4bd4-a1e2-ae2be33ad3f1",
+            "created": "2022-05-14T11:34:29.269Z",
+            "updated": "2022-05-14T11:34:29.269Z",
+            "creator": null,
+            "modified_by": null,
+            "name": "collection name 3",
+            "description": "Collection 2 abc",
+            "creator_network": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 1,
+        "fields": {
+            "uuid": "421f4575-d3e6-4361-9f6e-f9468973d780",
+            "created": "2022-05-14T10:09:06.928Z",
+            "updated": "2022-05-14T10:09:06.928Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "0278758d-61bb-4fb9-8f65-53de307285c3",
+            "name": "nft1",
+            "picture": "",
+            "external_link": "https://abc.com",
+            "description": "TEST",
+            "collection": 1,
+            "supply": 1,
+            "royalties": 10,
+            "buyer": 1
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 2,
+        "fields": {
+            "uuid": "6ab4460e-75d0-45e8-a87a-b4d3061f83ad",
+            "created": "2022-05-14T10:48:39.420Z",
+            "updated": "2022-05-14T10:48:39.420Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "dabfe1bd-505d-464c-8ba7-c98f9dbdbf10",
+            "name": "nft2",
+            "picture": "picutures/care_flow_chart.png",
+            "external_link": "https://abc.com",
+            "description": "TEST 2",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 3,
+        "fields": {
+            "uuid": "da472e60-74e4-4571-bf7d-b51b34477ecc",
+            "created": "2022-05-14T10:49:40.348Z",
+            "updated": "2022-05-14T10:49:40.348Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "77e82d7d-e3d5-4fa3-b090-ae75e2908ac9",
+            "name": "nft2",
+            "picture": "picutures/care_flow_chart_bQtE83Y.png",
+            "external_link": "https://abc.com",
+            "description": "TEST 2",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 4,
+        "fields": {
+            "uuid": "5b6ed79f-5d44-487b-b41c-5827507e09f8",
+            "created": "2022-05-14T10:51:04.697Z",
+            "updated": "2022-05-14T10:51:04.697Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "c8101cb0-794c-4702-8f7c-bec386b0f967",
+            "name": "nft2",
+            "picture": "picutures/care_flow_chart_Do4YdlF.png",
+            "external_link": "https://abc.com",
+            "description": "TEST 2",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 5,
+        "fields": {
+            "uuid": "eb1861cb-8f40-4f91-b9c4-a2304d13348b",
+            "created": "2022-05-14T10:51:48.088Z",
+            "updated": "2022-05-14T10:51:48.088Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "ef38f755-b29c-4a6a-b83c-56308ec79049",
+            "name": "nft2",
+            "picture": "picutures/care_flow_chart_LUCKJhb.png",
+            "external_link": "https://abc.com",
+            "description": "TEST 2",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 6,
+        "fields": {
+            "uuid": "f54ce563-7af6-4ac2-851e-2da8135dd285",
+            "created": "2022-05-14T10:52:19.849Z",
+            "updated": "2022-05-14T10:52:19.849Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "1bc70679-cca2-47fe-a64e-22d9bb951d57",
+            "name": "nft2",
+            "picture": "picutures/care_flow_chart_xyVz3BY.png",
+            "external_link": "https://abc.com",
+            "description": "TEST 2",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 7,
+        "fields": {
+            "uuid": "e52a24fb-68a2-4c50-bf7b-493a939bb1be",
+            "created": "2022-05-14T10:52:42.885Z",
+            "updated": "2022-05-14T10:52:42.885Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "0dbb4a57-f522-4b07-a665-49146ee9dfdb",
+            "name": "nft3",
+            "picture": "picutures/care_flow_chart_ht1PyWK.png",
+            "external_link": "https://example.com",
+            "description": "TEST 2 test 2 test 5",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    },
+    {
+        "model": "nft.nft",
+        "pk": 8,
+        "fields": {
+            "uuid": "5abfc37b-10f7-4cf3-8db6-f0d691620132",
+            "created": "2022-05-14T11:18:40.246Z",
+            "updated": "2022-05-14T11:18:40.246Z",
+            "creator": null,
+            "modified_by": null,
+            "asset_id": "2e9c04c6-c70a-4553-8bc8-61f6d99ca604",
+            "name": "nft4",
+            "picture": "picutures/care_flow_chart_oGHITn3.png",
+            "external_link": "https://example.com",
+            "description": "TEST 2 test 2 test 5",
+            "collection": 1,
+            "supply": 3,
+            "royalties": 10,
+            "buyer": null
+        }
+    }
+]
